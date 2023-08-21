@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Btk</title>
+
+    <link
+    rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/font.css" />
+  </head>
+
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- Header -->
+
+    <div class="back-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="logo" href="#">
+          <img src="/img/IMG-20230622-WA0009__1_-removebg-preview.png" alt="" />
+        </a>
+     
+        <div class=" navbar-collapse  collapse1">
+          <ul class="navbar-nav">
+            <li class="nav-item active drop-menu">
+              <a class="nav-link" href="">Ana səhifə</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/xestexanalar.html">Şirkət haqqında</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link drop-link" href="/tibbi-bolumler.html"
+                >Xidmətlər</a
+              >
+              <ul class="dropdown">
+                <li><a href="/umumi-melumat.html">Lorem ipsum</a></li>
+                <li>
+                  <a href="/pasiyent-fikirleri.html">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item drop-menu">
+              <a class="nav-link" href="">Referanslar</a>
+            </li>
+            <li class="nav-item drop-menu">
+              <a class="nav-link" href="">Əlaqə saxla</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-right">
+          <div class="language">
+            <div class="my-lan">
+              <a href="/az/"><img src="/img/azflag.png" /></a>
+              <a href="/en/"><img src="/img/ukflag.png" /></a>
+              <a href="/ru/"><img src="/img/russianflag.png" /></a>
+            </div>
+          </div>
+
+          <!-- modal btn -->
+          <button
+            type="button"
+            class="btn1"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"
+          >
+            Qiymət təklifi al
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Qiymət təklifi al
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <i class="fa-solid fa-x"></i>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <input type="text" placeholder="Ad, Soyad" />
+                    <input type="tel" placeholder="Telefon" />
+                    <input type="text" placeholder="Təmsil etdiyiniz şirkət" />
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      placeholder="Qeydlər"
+                    ></textarea>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button">Göndər</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-ham">   <i class="fa-solid fa-bars"></i> </div>
+      </div>
+    
+    </nav>
+<!-- modal end -->
+<!-- swiper  -->
+    <section id="slider">
+      <div
+        class="slider-swiper swiper swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+        >
+          <div
+            class="swiper-slide"
+            data-swiper-slide-index="0"
+            style="width: 1481px"
+          >
+            <img src="/img/pexels-karolina-grabowska-4033321.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="swiper-text-container" style="padding-left: 99.4px">
+              <div class="swiper-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p class="slider-descr">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, earum. Lorem, ipsum dolor.
+                </p>
+                <a href="">Ətraflı</a>
+                <div
+                  class="swiper-button-prev"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Previous slide"
+                ></div>
+                <div
+                  class="swiper-button-next"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Next slide"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            data-swiper-slide-index="1"
+            style="width: 1481px"
+          >
+            <img src="/img/pexels-alex-green-5699514.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="swiper-text-container" style="padding-left: 99.4px">
+              <div class="swiper-text">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p class="slider-descr">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  ipsa consequatur error maxime perspiciatis labore.
+                </p>
+                <a href="">Ətraflı</a>
+                <div
+                  class="swiper-button-prev"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Previous slide"
+                ></div>
+                <div
+                  class="swiper-button-next"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Next slide"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slide-prev"
+            data-swiper-slide-index="2"
+            style="width: 1481px"
+          >
+            <img src="/img/pexels-karolina-grabowska-4033323.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="swiper-text-container" style="padding-left: 99.4px">
+              <div class="swiper-text">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p class="slider-descr">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis totam quis harum. Quo, eum numquam.
+                </p>
+                <a href="">Ətraflı</a>
+                <div
+                  class="swiper-button-prev"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Previous slide"
+                ></div>
+                <div
+                  class="swiper-button-next"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Next slide"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slide-active"
+            data-swiper-slide-index="3"
+            style="width: 1481px"
+          >
+            <img src="/img/pexels-karolina-grabowska-4210656.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="swiper-text-container" style="padding-left: 99.4px">
+              <div class="swiper-text">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p class="slider-descr">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus incidunt porro placeat? Iste neque dicta quis minima?
+                </p>
+                <a href="/about/">Ətraflı</a>
+                <div
+                  class="swiper-button-prev"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Previous slide"
+                ></div>
+                <div
+                  class="swiper-button-next"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Next slide"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"
+        >
+          <span
+            class="swiper-pagination-bullet"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 1"
+            ><span class="bullet-inner"></span></span
+          ><span
+            class="swiper-pagination-bullet"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 2"
+            ><span class="bullet-inner"></span></span
+          ><span
+            class="swiper-pagination-bullet"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 3"
+            ><span class="bullet-inner"></span></span
+          ><span
+            class="swiper-pagination-bullet swiper-pagination-bullet-active"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 4"
+            ><span class="bullet-inner"></span
+          ></span>
+        </div>
+        <div class="slider-arrow-down">
+          <svg viewBox="0 0 500 500" class="sc-ecFaGM sc-hKNIYV hYdkTn">
+            <path
+              stroke="null"
+              d="m50.118769,329.53472l28.525115,28.200099l174.619755,-167.599858l18.624506,17.873845l-0.101441,-0.101441l155.143351,148.914488l28.951165,-27.774048c-42.868824,-41.164621 -162.589095,-156.076605 -202.617581,-194.48204c-29.7422,28.525115 -0.750661,0.710085 -203.14487,194.968955"
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+        <span
+          class="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></span>
+      </div>
+    </section>
+<!-- swiper end -->
+<!-- Header end -->
+
+
+    <!-- Haqqımızda -->
+    <div class="container">
+      <section id="about">
+        <div class="about-us">
+          <div class="about-us-content">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos alias
+              maxime quisquam aspernatur tempora provident eligendi totam
+              accusantium nemo ad
+            </p>
+            <a href="#">Ətraflı </a>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </div>
+          <div class="about-us-img">
+            <img src="/img/pexels-karolina-grabowska-4033326.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+      <!-- Swiper -->
+    
+        <div class="swiper-container  mySwiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+            <div class="swiper-slide"> <p class="dot"></p>  <p class="text">Lorem ipsum dolor sit</p></div>
+         
+          </div>
+        </div>
+    <!-- Haqqımızda end -->
+
+    <!--Xidmetler  -->
+    <section id="xidmet">
+      <div class="container text-center">
+        <h3>Xidmətlər</h3>
+        <div class="row g-2">
+          <div class="col-xl-6  col-md-4 animate__animated">
+            <div class="p-3">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 animate__animated">
+            <div class="p-3 p-3-img">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content2">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 animate__animated col-md-4">
+            <div class="p-3 p-3-img">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content2">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-hid animate__animated col-md-4">
+            <div class="p-3">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content content-hid">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-hid animate__animated col-md-4">
+            <div class="p-3 p-3-img">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content2 content-hid">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-hid animate__animated col-md-4">
+            <div class="p-3 p-3-img">
+              <img src="/img/pexels-kafeel-ahmed-3997459.jpg" alt="" />
+              <div class="p-3-content2">
+                <span>Lorem</span>
+                <p>
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, dicta!
+                  </a>
+                </p>
+                <span>20 june 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-btn">
+          <button>Daha çox göstər</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Xidmetler  end-->
+
+    <!-- Statistik melumatlar -->
+    <section id="statistik">
+      <div class="all-statistik">
+        <div class="statistik-melumat">
+          <h2>N<span>%-i</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium labore cum provident explicabo.
+          </p>
+          <span class="stat">LOREM</span>
+        </div>
+        <div class="statistik-melumat">
+          <h2>N<span>%-i</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium labore cum provident explicabo.
+          </p>
+          <span class="stat">LOREM</span>
+        </div>
+        <div class="statistik-melumat">
+          <h2>N<span>%-i</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium labore cum provident explicabo.
+          </p>
+          <span class="stat">LOREM</span>
+        </div>
+        <div class="statistik-melumat">
+          <h2>N<span>%-i</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium labore cum provident explicabo.
+          </p>
+          <span class="stat">LOREM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistik melumatlar  end-->
+
+    <!-- Layiheler -->
+    <section id="layihe">
+      <div class="container">
+
+        <div class="all-layihe">
+
+          <a href="#" class="layihe-link">
+            <div class="layihe">
+              <span class="nan"> lorem </span>
+              <div class="layihe-content">
+                <p class="info">Lorem ipsum dolor sit amet.</p>
+                <div class="date-loc">
+                  <p class="date">20 iyun 2023 </p>
+                  <span class="location">Lorem, ipsum dolor.</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="layihe-link">
+            <div class="layihe">
+              <span class="nan"> lorem </span>
+              <div class="layihe-content">
+                <p class="info">Lorem ipsum dolor sit amet.</p>
+                <div class="date-loc">
+                  <p class="date">20 iyun 2023</p>
+                  <span class="location">Lorem, ipsum dolor.</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="layihe-link">
+            <div class="layihe">
+              <span class="nan"> lorem </span>
+              <div class="layihe-content">
+                <p class="info">Lorem ipsum dolor sit amet.</p>
+                <div class="date-loc">
+                  <p class="date">20 iyun 2023</p>
+                  <span class="location">Lorem, ipsum dolor.</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Layiheler end-->
+    <!--  -->
+    <section id="referans">
+      <div class="referans-content">
+        <h3>Referanslar</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem amet, ad quasi itaque beatae rem hic ratione modi optio.</p>
+      </div>
+
+  <div class="all-logos">
+    <div class="logos">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+    </div>
+    <div class="logos">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+    </div>
+  </div>
+  <div class="all-logos">
+    <div class="logos1">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+    </div>
+    <div class="logos1">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+      <img src="/img/6220d3e0c906c62f89719137_pegasus.png" alt="">
+    </div>
+  </div>
+  
+    </section>
+    <!-- referans end -->
+
+    <!-- Qiymet teklifi -->
+<section id="qiymet">
+<div class="qiymet">
+  <h2>Lorem, ipsum dolor </h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam tempore quam nobis sit officiis!</p>
+  <div class="qiymet-btn">
+    <button
+    type="button"
+    class="btn2"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+    data-bs-whatever="@mdo"
+  >
+    Qiymət təklifi al
+  </button>
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Qiymət təklifi al
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type="text" placeholder="Ad, Soyad" />
+            <input type="tel" placeholder="Telefon" />
+            <input type="text" placeholder="Təmsil etdiyiniz şirkət" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Qeydlər"
+            ></textarea>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button">Göndər</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+</section>
+    <!-- Qiymet teklifi  end-->
+    <!-- Footer -->
+<section id="footer">
+<div class="all-footer">
+  <div class="container">
+    <div class="footer-part-one">
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+      <div class="footer-part-one-1">
+      <a href="#"> (+994 50) 280 24 86</a>
+      <a href="#"> (+994 50) 280 24 86</a>
+      </div>
+      </div>
+      <div class="footer-part-two">
+      <div class="footer-part-two-1">
+        <p>Lorem, ipsum.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="footer-part-two-2">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+  
+      </div>
+      <div class="footer-part-three">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, cupiditate.</p>
+        <p> Saytın hazırlanması: <a href="https://okmedia.az/"> <img src="/img/okmedia-logo.png" alt=""></a> </p>
+      </div>
+      </div>
+  </div>
+</section>
+
+    <!-- Footer end-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fdb9fe0c7b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
