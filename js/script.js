@@ -30,8 +30,8 @@ $(document).ready(function () {
       : $(".back-to-top").removeClass("show");
   }),
     $(".back-to-top").click(function () {
-    $(window).animate( {
-      scrollTop:"0"
+    $("html ,body").animate( {
+      scrollTop:0
     }  )
     });
 });
